@@ -28,6 +28,7 @@ jobs:
           name: output-log-file
           path: output.log
   example-job-2:
+    runs-on: ubuntu-latest
     steps:
       - name: Download a single artifact
         uses: actions/download-artifact@v3
